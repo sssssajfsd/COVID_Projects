@@ -1,0 +1,69 @@
+Arguments: 
+  D:\Node\node.exe C:\Users\19394\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Bandizip\;E:\tool\mongo\bin;E:\too;\weprogram\微信web开发者工具\dll;E:\too;\Git\cmd;D:\Node\;D:\too;\matlab\runtime\win64;D:\tool\matlab\bin;D:\tool\matlab\polyspace\bin;E:\tool\Git\cmd;E:\tool\微信web开发者工具\dll;C:\Users\19394\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\19394\AppData\Local\Programs\Python\Python35\;C:\Users\19394\AppData\Local\Microsoft\WindowsApps;C:\Users\19394\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\19394\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\19394\Desktop\do\not\react测试\COVID_InfoQuery\COVID_InfoQuery\package.json: Unexpected token < in JSON at position 793
+      at JSON.parse (<anonymous>)
+      at C:\Users\19394\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\19394\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\19394\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "devDependencies": {
+      "@commitlint/cli": "^17.1.2",
+      "@commitlint/config-angular": "^17.1.0",
+      "commitizen": "^4.2.5",
+      "cz-conventional-changelog": "^3.3.0",
+      "husky": "^8.0.1",
+      "sass-loader": "^10.1.1"
+    },
+    "config": {
+      "commitizen": {
+        "path": "./node_modules/cz-conventional-changelog"
+      }
+    },
+    "scripts": {
+      "commit": "git-cz",
+      "release": "standard-version --release-as",
+      "release:100": "npm run release -- major",
+      "release:010": "npm run release -- minor",
+      "release:001": "npm run release -- patch"
+    },
+    "husky": {
+      "hooks": {
+        "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      }
+    },
+    "dependencies": {
+      "@dcloudio/uni-ui": "^1.4.22",
+      "axios": "^0.27.2",
+      "echarts": "^5.4.0",
+      "mpvue-echarts": "^0.3.2",
+  <<<<<<< HEAD
+      "vant": "^3.6.3",
+      "vue-jsonp": "^2.0.0"
+  =======
+      "vant": "^3.6.3"
+  >>>>>>> bbb83a452132bfa9bfee3d23e6805c25fabcde01
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

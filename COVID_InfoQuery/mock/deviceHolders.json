@@ -1,0 +1,51 @@
+[
+	{
+		"holddevice":"A城区核酸检测站点",
+		"datachannel":"拥挤状态",
+		"holddeviceimg": "https://tse4-mm.cn.bing.net/th/id/OIP-C.ODJoHlmBYzObFFmyid6ADwHaE7?w=306&h=203&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+		"message":"暂时处于核酸检测高峰期"	,
+		"timestamp":"2022-10-07"
+	},
+	{
+		"holddevice":"B城区核酸检测站点",
+		"datachannel":"空闲状态",
+		"holddeviceimg": "https://tse2-mm.cn.bing.net/th/id/OIP-C.lAU-zHVxz-kH6ThVTf1K0gHaFj?w=228&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+		"message":"暂时处于空闲状态",
+		"timestamp":"2022-10-07"
+	},
+	{
+		"holddevice":"C城区核酸检测站点",
+		"datachannel":"空闲状态",
+		"holddeviceimg": "https://tse1-mm.cn.bing.net/th/id/OIP-C.GNJk8HO-jw79NVZu0XZmZgHaE8?w=247&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+		"message":"暂时处于空闲状态",
+		"timestamp":"2022-10-07"
+	},
+	{
+		"holddevice":"D城区核酸检测站点",
+		"datachannel":"爆满状态",
+		"holddeviceimg": "https://tse4-mm.cn.bing.net/th/id/OIP-C.Knl5cQAm768MiB2ZUwvfhgHaFl?w=246&h=186&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+		"message":"暂时处于爆满状态",
+		"timestamp":"2022-10-07"
+	},
+	{
+		"holddevice":"E城区核酸检测站点",
+		"datachannel":"拥挤状态",
+		"holddeviceimg": "https://tse2-mm.cn.bing.net/th/id/OIP-C.6nKDNay619LWDof2TMugSwHaE7?w=289&h=191&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+		"message":"暂时处于拥挤状态",
+		"timestamp":"2022-10-07"
+	},
+	{
+		"holddevice":"F城区核酸检测站点",
+		"datachannel":"拥挤状态",
+		"holddeviceimg": "https://tse4-mm.cn.bing.net/th/id/OIP-C.Ayc_FnixJjKzOd9VFiq3agHaE8?w=250&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+		"message":"暂时处于拥挤状态",
+		"timestamp":"2022-10-08"
+	},
+	{
+		"holddevice":"G城区核酸检测站点",
+		"datachannel":"爆满状态",
+		"holddeviceimg": "https://tse3-mm.cn.bing.net/th/id/OIP-C.zatmRCaNWf9yI816X19FfAAAAA?w=277&h=183&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+		"message":"暂时处于爆满状态",
+		"timestamp":"2022-10-09"
+	}
+]

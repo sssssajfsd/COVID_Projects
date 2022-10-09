@@ -1,0 +1,35 @@
+{
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-angular": "^17.1.0",
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.1",
+    "sass-loader": "^10.1.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "release": "standard-version --release-as",
+    "release:100": "npm run release -- major",
+    "release:010": "npm run release -- minor",
+    "release:001": "npm run release -- patch"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "dependencies": {
+    "@dcloudio/uni-ui": "^1.4.22",
+    "axios": "^0.27.2",
+    "echarts": "^5.4.0",
+    "mpvue-echarts": "^0.3.2",
+    "vant": "^3.6.3",
+    "vue-jsonp": "^2.0.0"
+  }
+}
